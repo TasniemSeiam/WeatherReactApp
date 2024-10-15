@@ -24,12 +24,12 @@
   left: 30px;
 }
 .cardItems h2 {
-  font-size: 37px;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 .cardItems p {
   font-weight: 300;
-  font-size: 24px;
+  font-size: 1.3rem;
   padding: 3px 0;
 }
 span{
@@ -39,4 +39,17 @@ span{
 .city span {
  
   margin-left: 10px;
+}
+@media (max-width: 440px) {
+  .items {
+   
+    width:100%;
+    padding: 0 2rem 3.5rem 0;
+  }
+  .img {
+    width: 200px;
+    position: absolute;
+    top: -26%;
+    right: -20px;
+  }
 }

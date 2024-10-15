@@ -36,3 +36,9 @@ h1 {
   text-align: center;
   position: relative;
 }
+
+@media (max-width: 440px) {
+  .searchInput {
+    width: 70%;
+  }
+}
