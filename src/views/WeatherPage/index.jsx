@@ -99,7 +99,7 @@ const Weather = () => {
                 />
               ) : (
                 <p style={{ color: "#fff", fontSize: "20px" }}>
-                  Sorry, can not find this city
+                  Sorry, City not found, please try again
                 </p>
               )}
             </div>
