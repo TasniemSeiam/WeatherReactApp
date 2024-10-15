@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1d2b32 !important;
+}
+
+
+.bluer {
+  filter: blur(70px);
+  background-color: #caecffb3;
+  padding: 20px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+

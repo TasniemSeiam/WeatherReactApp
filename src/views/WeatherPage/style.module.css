@@ -1,0 +1,38 @@
+.textTop {
+  font-size: 40px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 50px auto;
+  z-index: 2;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  z-index: 2;
+}
+.darkSpan {
+  z-index: 2;
+  font-weight: 700;
+  background-image: linear-gradient(to left, #78cfff, #caecff);
+  background-clip: text;
+  color: transparent;
+}
+
+.searchInput {
+  width: 90%;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  background-color: #24343d;
+  padding: 15px 25px;
+  margin-bottom: 50px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.weathersData {
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}

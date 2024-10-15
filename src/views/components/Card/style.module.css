@@ -1,0 +1,42 @@
+.items {
+  border-radius: 20px;
+  z-index: 3;
+  width: 340px;
+  height: 450px;
+  margin: 0 auto;
+  color: #fff;
+  background: linear-gradient(#2b3f4a4c, #2a3b45af);
+  border-radius: 20px;
+  backdrop-filter: blur(10px) !important;
+  position: relative;
+}
+
+.img {
+  width: 300px;
+  position: absolute;
+  top: -26%;
+  right: -60px;
+}
+.cardItems {
+  position: relative;
+  top: 35%;
+  text-align: start;
+  left: 30px;
+}
+.cardItems h2 {
+  font-size: 37px;
+  font-weight: 700;
+}
+.cardItems p {
+  font-weight: 300;
+  font-size: 24px;
+  padding: 3px 0;
+}
+span{
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.city span {
+ 
+  margin-left: 10px;
+}
