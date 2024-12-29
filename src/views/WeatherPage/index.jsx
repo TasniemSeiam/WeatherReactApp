@@ -46,7 +46,15 @@ const Weather = () => {
   }, [city]);
 
   if (isLoading) {
-    return <p style={{ color: "#fff" }}>Loading...</p>;
+    return (
+      <p
+        className=" d-flex justify-content-center align-items-center "
+        style={{ color: "#fff", height: "100vh" }}
+      >
+        <div class="spinner-grow text-light" role="status">
+        </div>
+      </p>
+    );
   }
 
   return (
@@ -58,11 +66,13 @@ const Weather = () => {
             Seeing the weather of the whole world with
             <br /> <span className={styles.darkSpan}> Dark Weather!</span>
           </p>
-         
+
           <div className="col-md-9  justify-content-center ">
-            <div className={` d-flex justify-content-center align-items-center  `}>
-              <form  onSubmit={handleSubmit} style={{width:"100%"}}>
-                <div className={`input-group mx-auto  `}  >
+            <div
+              className={` d-flex justify-content-center align-items-center  `}
+            >
+              <form onSubmit={handleSubmit} style={{ width: "100%" }}>
+                <div className={`input-group mx-auto  `}>
                   <input
                     type="search"
                     className={`${styles.searchInput} `}
